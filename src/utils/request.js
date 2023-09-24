@@ -1,8 +1,7 @@
 import axios from 'axios';
 import { getToken } from './storage'
 
-const API_HOST = 'https://jsonplaceholder.typicode.com';
-//http://localhost:3000
+const API_HOST = 'http://localhost:8000/api';
 
 export const instance = axios.create({
     baseURL: API_HOST || '/',
